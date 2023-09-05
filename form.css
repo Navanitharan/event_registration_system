@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+.formcontainer{
+    color: #fff;
+    width:425px;
+    margin: 10% auto;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    margin: 15px 0;
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+button{
+    width: 150px;
+    padding: 16px;
+    margin: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #000;
+    border: none;
+    border:3px solid #1869dc;
+    border-radius: 50px;
+    transition-duration: 1s;
+    animation-name: registerButton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes registerButton{
+    form{}
+    to{
+        border-color: #1869dc;
+        box-shadow: -2px -2px 40px 0px #1869dc;
+        
+    }
+    
+}
+button:hover{
+    letter-spacing: 0.05em;
+}
+input:hover{
+    border-color: #1869dc;
+    box-shadow: -2px -2px 40px 0px #1869dc;
+}
